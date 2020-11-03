@@ -214,8 +214,9 @@ img{
   color: var(--first-color);
 }
 .home__img{
+  display:none;
   position: absolute;
-  right: 5%;
+  right: 0;
   bottom: 0;
   width: 250px;
   
@@ -306,7 +307,11 @@ img{
 }
 
 /* ===== CONTACT =====*/
-.contact__input{
+.contact__container{
+  text-align: center;
+}
+
+/*.contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -315,11 +320,12 @@ img{
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
-}
+}*/
 .contact__button{
   display: block;
   border: none;
   outline: none;
+  text-align: center;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin: 3em 0 0 0;
@@ -399,6 +405,7 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
+    display:block;
     width: 320px;
     bottom: 0;
     right: 10%;
