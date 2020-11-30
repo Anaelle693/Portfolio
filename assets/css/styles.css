@@ -392,9 +392,9 @@ img{
     color: var(--second-color);
   }
 
-  /*.home{
-    height: 100vh;
-  }*/
+ .home{
+    height: 10vh;
+  }
   .home__data{
     align-self: flex-end;
   }
