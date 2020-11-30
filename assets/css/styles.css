@@ -186,6 +186,9 @@ img{
 }
 
 /*===== HOME =====*/
+#home{
+  text-align:center;
+}
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
