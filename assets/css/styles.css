@@ -393,7 +393,7 @@ img{
   }
 
  .home{
-    height: 10vh;
+    height: 100vh;
   }
   .home__data{
     align-self: flex-end;
