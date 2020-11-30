@@ -391,7 +391,9 @@ img{
   .nav__link{
     color: var(--second-color);
   }
-
+.home{
+  height:70wh;
+  }
   .home__data{
     align-self: flex-end;
   }
