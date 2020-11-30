@@ -473,10 +473,10 @@ img{
   }
   .skills__img{
     border-radius: .5rem;
-    height: 60vh;
-    width: 30vw;
+    height: 50vh;
+    width: 20vw;
     position: absolute;
     top: 140%;
-    right: 5%;
+    right: 15%;
   }
 }
