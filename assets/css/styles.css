@@ -190,7 +190,7 @@ img{
   text-align:center;
 }
 .home{
-  height: calc(30vh - 3rem);
+  height: calc(70vh - 3rem);
   row-gap: 1rem;
 }
 .home__data{
@@ -392,9 +392,9 @@ img{
     color: var(--second-color);
   }
 
-  .home{
+  /*.home{
     height: 100vh;
-  }
+  }*/
   .home__data{
     align-self: flex-end;
   }
