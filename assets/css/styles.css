@@ -59,7 +59,7 @@ body{
   color: var(--second-color);
 }
 h1,h2,p{
-  margin: 66px;
+  margin:0;
 }
 ul{
   margin: 0;
