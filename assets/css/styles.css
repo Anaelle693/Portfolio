@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Couleurs =====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Taille et typographie =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Marges =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -465,7 +465,10 @@ img{
   }
 }
 @media screen and (min-width: 1440px){
-  .home__img{
+  .home{ 
+    height: calc(55vh - 3rem);
+    
+  .home__img{ cal
     width: 395px;
     bottom: 35%;
     right: 5%;
